@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Notes App</title>
+    <link rel="stylesheet" href="cs.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <nav id="navv">
+
+
+        <ul class="nn">
+            <li><a href="#">
+                    <h3>Nick's Notes</h3>
+                </a></li>
+
+
+        </ul>
+
+
+
+        <input class="ser" id="searchTxt" type="search" placeholder="Search" aria-label="Search">
+        <button class="serb" type="submit">Search</button>
+    </nav>
+
+
+    <div class="design">
+        <h1 class="heading">Our Notes...</h1>
+        <hr>
+        <div>
+            <div>
+                <h5 class="title">Add a note</h5>
+                <div>
+                    <textarea class="tarea" id="addTxt" rows="3" placeholder="Type here"></textarea>
+                </div>
+                <button class="btn1" id="addBtn">Add Note</button>
+            </div>
+        </div>
+        <hr>
+
+
+        <h1>Your Notes</h1>
+        <hr>
+
+        <div id="notes" class="container">
+
+        </div>
+
+
+
+        <script src="main.js"></script>
+</body>
+
+</html>
